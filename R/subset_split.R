@@ -11,7 +11,6 @@
 #' @param seed Numeric
 #'
 #' @return subset splits
-#' @export
 
 subset_split <- function(split, cell.meta, subidents, idents,ident, split.by, sample.sizes, subtype.props, seed=seed){
 

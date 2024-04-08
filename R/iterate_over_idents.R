@@ -12,7 +12,6 @@
 #' @param seed A numeric
 #'
 #' @return Iteration over idents
-#' @export
 #'
 iterate_over_idents <- function(ident, keep.proportions, splits, cell.meta, subidents, idents, split.by, sample.sizes, equal_splits, seed=seed){
 
