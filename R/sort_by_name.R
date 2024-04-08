@@ -3,7 +3,6 @@
 #' @param x a named vector
 #'
 #' @return sorted vector
-#' @export
 #'
 #' @examples
 #' a=setNames(c(1,2,3), nm=c("C", "A", "B"))

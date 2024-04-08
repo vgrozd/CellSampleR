@@ -2,5 +2,4 @@
 
 export(iterate_over_idents)
 export(sample_cells_hierarchically)
-export(sort_by_name)
 export(subset_split)
