@@ -1,3 +1,19 @@
+#' Title
+#'
+#' @param split
+#' @param cell.meta
+#' @param subidents
+#' @param idents
+#' @param ident
+#' @param split.by
+#' @param sample.sizes
+#' @param subtype.props
+#' @param seed
+#'
+#' @return
+#' @export
+#'
+#' @examples
 .subset_split <- function(split, cell.meta, subidents, idents,ident, split.by, sample.sizes, subtype.props, seed=seed){
 
 

@@ -1,3 +1,20 @@
+#' .iterate_over_idents.R
+#'
+#' @param ident
+#' @param keep.proportions
+#' @param splits
+#' @param cell.meta
+#' @param subidents
+#' @param idents
+#' @param split.by
+#' @param sample.sizes
+#' @param equal_splits
+#' @param seed
+#'
+#' @return
+#' @export
+#'
+#' @examples
 .iterate_over_idents <- function(ident, keep.proportions, splits, cell.meta, subidents, idents, split.by, sample.sizes, equal_splits, seed=seed){
 
 
