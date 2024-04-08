@@ -9,6 +9,6 @@
 #' a=setNames(c(1,2,3), nm=c("C", "A", "B"))
 #' sort_by_name(a)
 sort_by_name <- function(x){
-  if(is.null(names(a))) stop("Vector is not named")
+  if(is.null(names(x))) stop("Vector is not named")
   return(x[order(names(x))])
 }
