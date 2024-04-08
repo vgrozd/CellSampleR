@@ -1,3 +1,20 @@
+#' sample_cells_hierarhically.R
+#'
+#' @param cell.meta
+#' @param idents
+#' @param subidents
+#' @param split.by
+#' @param equal_splits
+#' @param as.data
+#' @param sample.size
+#' @param keep.proportions
+#' @param seed
+#' @param plot
+#'
+#' @return
+#' @export
+#'
+#' @examples
 sample_cells_hierarchically <- function(
     cell.meta,
     idents,
