@@ -1,20 +1,22 @@
 #' sample_cells_hierarhically.R
 #'
-#' @param cell.meta
-#' @param idents
-#' @param subidents
-#' @param split.by
-#' @param equal_splits
-#' @param as.data
-#' @param sample.size
-#' @param keep.proportions
-#' @param seed
-#' @param plot
+#' @param cell.meta A character
+#' @param idents A character
+#' @param subidents A character
+#' @param split.by A character
+#' @param equal_splits A character
+#' @param as.data A character
+#' @param sample.size A character
+#' @param keep.proportions A character
+#' @param seed A character
+#' @param plot A character
 #'
-#' @return
+#' @return A numeric vector
 #' @export
 #'
 #' @examples
+#' sample_cells_hierarchically()
+#'
 sample_cells_hierarchically <- function(
     cell.meta,
     idents,
@@ -61,7 +63,7 @@ sample_cells_hierarchically <- function(
     unlist(
       sapply(
         .idents,
-        FUN=.iterate_over_idents,
+        FUN=iterate_over_idents,
         keep.proportions=keep.proportions,
         splits=splits,
         cell.meta=cell.meta,

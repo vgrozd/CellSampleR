@@ -1,21 +1,20 @@
-#' .iterate_over_idents.R
+#' Iterate over idents internal
 #'
-#' @param ident
-#' @param keep.proportions
-#' @param splits
-#' @param cell.meta
-#' @param subidents
-#' @param idents
-#' @param split.by
-#' @param sample.sizes
-#' @param equal_splits
-#' @param seed
+#' @param ident A character
+#' @param keep.proportions A character
+#' @param splits A character
+#' @param cell.meta A character
+#' @param subidents A character
+#' @param idents A character
+#' @param split.by A character
+#' @param sample.sizes A character
+#' @param equal_splits A character
+#' @param seed A numeric
 #'
-#' @return
+#' @return Iteration over idents
 #' @export
 #'
-#' @examples
-.iterate_over_idents <- function(ident, keep.proportions, splits, cell.meta, subidents, idents, split.by, sample.sizes, equal_splits, seed=seed){
+iterate_over_idents <- function(ident, keep.proportions, splits, cell.meta, subidents, idents, split.by, sample.sizes, equal_splits, seed=seed){
 
 
   subtype.props <- list()
@@ -36,7 +35,7 @@
       unlist(
         sapply(
           splits,
-          .subset_split,
+          subset_split,
           cell.meta=cell.meta,
           subidents=subidents,
           idents=idents,

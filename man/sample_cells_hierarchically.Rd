@@ -18,8 +18,33 @@ sample_cells_hierarchically(
 )
 }
 \arguments{
-\item{plot}{}
+\item{cell.meta}{A character}
+
+\item{idents}{A character}
+
+\item{subidents}{A character}
+
+\item{split.by}{A character}
+
+\item{equal_splits}{A character}
+
+\item{as.data}{A character}
+
+\item{sample.size}{A character}
+
+\item{keep.proportions}{A character}
+
+\item{seed}{A character}
+
+\item{plot}{A character}
+}
+\value{
+A numeric vector
 }
 \description{
 sample_cells_hierarhically.R
+}
+\examples{
+sample_cells_hierarchically()
+
 }

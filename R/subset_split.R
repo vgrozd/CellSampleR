@@ -1,20 +1,19 @@
-#' Title
+#' Subset split internal
 #'
-#' @param split
-#' @param cell.meta
-#' @param subidents
-#' @param idents
-#' @param ident
-#' @param split.by
-#' @param sample.sizes
-#' @param subtype.props
-#' @param seed
+#' @param split Split
+#' @param cell.meta Data to subset
+#' @param subidents A character
+#' @param idents A character
+#' @param ident A character
+#' @param split.by Grouping variable
+#' @param sample.sizes  Numeric
+#' @param subtype.props Logical
+#' @param seed Numeric
 #'
-#' @return
+#' @return subset splits
 #' @export
-#'
-#' @examples
-.subset_split <- function(split, cell.meta, subidents, idents,ident, split.by, sample.sizes, subtype.props, seed=seed){
+
+subset_split <- function(split, cell.meta, subidents, idents,ident, split.by, sample.sizes, subtype.props, seed=seed){
 
 
 
